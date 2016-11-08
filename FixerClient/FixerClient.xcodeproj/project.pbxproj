@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		491F487BF9F3D560D4B9BF5F /* Pods_FixerClient.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65913AFD0D87680838E2F258 /* Pods_FixerClient.framework */; };
+		8438769B1DD26B7D009510E7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438769A1DD26B7D009510E7 /* AppDelegate.swift */; };
+		8438769D1DD26B7D009510E7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8438769C1DD26B7D009510E7 /* ViewController.swift */; };
+		843876A01DD26B7D009510E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8438769E1DD26B7D009510E7 /* Main.storyboard */; };
+		843876A21DD26B7D009510E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 843876A11DD26B7D009510E7 /* Assets.xcassets */; };
+		843876A51DD26B7D009510E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 843876A31DD26B7D009510E7 /* LaunchScreen.storyboard */; };
+		843876BC1DD26D31009510E7 /* FixerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843876BB1DD26D31009510E7 /* FixerService.swift */; };
+		843876BF1DD26E01009510E7 /* DateCurrencyRate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843876BE1DD26E01009510E7 /* DateCurrencyRate.swift */; };
+		843876C41DD271EF009510E7 /* UN_FixerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843876C31DD271EF009510E7 /* UN_FixerService.swift */; };
+		C47A167FC48D2F3F1B008FC9 /* Pods_FixerClientTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F43278108E0883E23506655B /* Pods_FixerClientTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		843876AC1DD26B7D009510E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8438768F1DD26B7D009510E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 843876961DD26B7D009510E7;
+			remoteInfo = FixerClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		301B78D7037F71C7C379758B /* Pods-FixerClient.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixerClient.release.xcconfig"; path = "Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient.release.xcconfig"; sourceTree = "<group>"; };
+		65913AFD0D87680838E2F258 /* Pods_FixerClient.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FixerClient.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		843876971DD26B7D009510E7 /* FixerClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FixerClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8438769A1DD26B7D009510E7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8438769C1DD26B7D009510E7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8438769F1DD26B7D009510E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		843876A11DD26B7D009510E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		843876A41DD26B7D009510E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		843876A61DD26B7D009510E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843876AB1DD26B7D009510E7 /* FixerClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FixerClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		843876B11DD26B7D009510E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		843876BB1DD26D31009510E7 /* FixerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FixerService.swift; path = Rest/FixerService.swift; sourceTree = "<group>"; };
+		843876BE1DD26E01009510E7 /* DateCurrencyRate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DateCurrencyRate.swift; path = Model/DateCurrencyRate.swift; sourceTree = "<group>"; };
+		843876C31DD271EF009510E7 /* UN_FixerService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = UN_FixerService.swift; path = Rest/UN_FixerService.swift; sourceTree = "<group>"; };
+		C0FCFE44C2FF3EE9CD557FD2 /* Pods-FixerClientTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixerClientTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests.release.xcconfig"; sourceTree = "<group>"; };
+		DD654264444216CE8D8B2E3F /* Pods-FixerClientTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixerClientTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests.debug.xcconfig"; sourceTree = "<group>"; };
+		F43278108E0883E23506655B /* Pods_FixerClientTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FixerClientTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF90AAE39572247472B8DD4E /* Pods-FixerClient.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FixerClient.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		843876941DD26B7D009510E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				491F487BF9F3D560D4B9BF5F /* Pods_FixerClient.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843876A81DD26B7D009510E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C47A167FC48D2F3F1B008FC9 /* Pods_FixerClientTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8438768E1DD26B7C009510E7 = {
+			isa = PBXGroup;
+			children = (
+				843876991DD26B7D009510E7 /* FixerClient */,
+				843876AE1DD26B7D009510E7 /* FixerClientTests */,
+				843876981DD26B7D009510E7 /* Products */,
+				944B69D1C3BE6B09D24B54DF /* Pods */,
+				A4E8DEFB835DE2CF82152F54 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		843876981DD26B7D009510E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				843876971DD26B7D009510E7 /* FixerClient.app */,
+				843876AB1DD26B7D009510E7 /* FixerClientTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		843876991DD26B7D009510E7 /* FixerClient */ = {
+			isa = PBXGroup;
+			children = (
+				843876BD1DD26DC4009510E7 /* Model */,
+				843876BA1DD26D01009510E7 /* Rest */,
+				8438769A1DD26B7D009510E7 /* AppDelegate.swift */,
+				8438769C1DD26B7D009510E7 /* ViewController.swift */,
+				8438769E1DD26B7D009510E7 /* Main.storyboard */,
+				843876A11DD26B7D009510E7 /* Assets.xcassets */,
+				843876A31DD26B7D009510E7 /* LaunchScreen.storyboard */,
+				843876A61DD26B7D009510E7 /* Info.plist */,
+			);
+			path = FixerClient;
+			sourceTree = "<group>";
+		};
+		843876AE1DD26B7D009510E7 /* FixerClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				843876C21DD271D1009510E7 /* Rest */,
+				843876B11DD26B7D009510E7 /* Info.plist */,
+			);
+			path = FixerClientTests;
+			sourceTree = "<group>";
+		};
+		843876BA1DD26D01009510E7 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				843876BB1DD26D31009510E7 /* FixerService.swift */,
+			);
+			name = Rest;
+			sourceTree = "<group>";
+		};
+		843876BD1DD26DC4009510E7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				843876BE1DD26E01009510E7 /* DateCurrencyRate.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		843876C21DD271D1009510E7 /* Rest */ = {
+			isa = PBXGroup;
+			children = (
+				843876C31DD271EF009510E7 /* UN_FixerService.swift */,
+			);
+			name = Rest;
+			sourceTree = "<group>";
+		};
+		944B69D1C3BE6B09D24B54DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF90AAE39572247472B8DD4E /* Pods-FixerClient.debug.xcconfig */,
+				301B78D7037F71C7C379758B /* Pods-FixerClient.release.xcconfig */,
+				DD654264444216CE8D8B2E3F /* Pods-FixerClientTests.debug.xcconfig */,
+				C0FCFE44C2FF3EE9CD557FD2 /* Pods-FixerClientTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A4E8DEFB835DE2CF82152F54 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65913AFD0D87680838E2F258 /* Pods_FixerClient.framework */,
+				F43278108E0883E23506655B /* Pods_FixerClientTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		843876961DD26B7D009510E7 /* FixerClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843876B41DD26B7D009510E7 /* Build configuration list for PBXNativeTarget "FixerClient" */;
+			buildPhases = (
+				5797BEDE322E12D90D714F88 /* [CP] Check Pods Manifest.lock */,
+				843876931DD26B7D009510E7 /* Sources */,
+				843876941DD26B7D009510E7 /* Frameworks */,
+				843876951DD26B7D009510E7 /* Resources */,
+				F872896C2FF29A15967FD417 /* [CP] Embed Pods Frameworks */,
+				8B71C1ED3D71E5CC62E8574F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FixerClient;
+			productName = FixerClient;
+			productReference = 843876971DD26B7D009510E7 /* FixerClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		843876AA1DD26B7D009510E7 /* FixerClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 843876B71DD26B7D009510E7 /* Build configuration list for PBXNativeTarget "FixerClientTests" */;
+			buildPhases = (
+				0A2724BC657858BCBE8C0A2B /* [CP] Check Pods Manifest.lock */,
+				843876A71DD26B7D009510E7 /* Sources */,
+				843876A81DD26B7D009510E7 /* Frameworks */,
+				843876A91DD26B7D009510E7 /* Resources */,
+				1C207038F307EC859FCCD3D2 /* [CP] Embed Pods Frameworks */,
+				79ABB1711EBA8E92671916C1 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				843876AD1DD26B7D009510E7 /* PBXTargetDependency */,
+			);
+			name = FixerClientTests;
+			productName = FixerClientTests;
+			productReference = 843876AB1DD26B7D009510E7 /* FixerClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8438768F1DD26B7D009510E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = Admin;
+				TargetAttributes = {
+					843876961DD26B7D009510E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					843876AA1DD26B7D009510E7 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 843876961DD26B7D009510E7;
+					};
+				};
+			};
+			buildConfigurationList = 843876921DD26B7D009510E7 /* Build configuration list for PBXProject "FixerClient" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8438768E1DD26B7C009510E7;
+			productRefGroup = 843876981DD26B7D009510E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				843876961DD26B7D009510E7 /* FixerClient */,
+				843876AA1DD26B7D009510E7 /* FixerClientTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		843876951DD26B7D009510E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843876A51DD26B7D009510E7 /* LaunchScreen.storyboard in Resources */,
+				843876A21DD26B7D009510E7 /* Assets.xcassets in Resources */,
+				843876A01DD26B7D009510E7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843876A91DD26B7D009510E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A2724BC657858BCBE8C0A2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1C207038F307EC859FCCD3D2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5797BEDE322E12D90D714F88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79ABB1711EBA8E92671916C1 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B71C1ED3D71E5CC62E8574F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F872896C2FF29A15967FD417 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		843876931DD26B7D009510E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8438769D1DD26B7D009510E7 /* ViewController.swift in Sources */,
+				8438769B1DD26B7D009510E7 /* AppDelegate.swift in Sources */,
+				843876BF1DD26E01009510E7 /* DateCurrencyRate.swift in Sources */,
+				843876BC1DD26D31009510E7 /* FixerService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		843876A71DD26B7D009510E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				843876C41DD271EF009510E7 /* UN_FixerService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		843876AD1DD26B7D009510E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 843876961DD26B7D009510E7 /* FixerClient */;
+			targetProxy = 843876AC1DD26B7D009510E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8438769E1DD26B7D009510E7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8438769F1DD26B7D009510E7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		843876A31DD26B7D009510E7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				843876A41DD26B7D009510E7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		843876B21DD26B7D009510E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		843876B31DD26B7D009510E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		843876B51DD26B7D009510E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF90AAE39572247472B8DD4E /* Pods-FixerClient.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FixerClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jca.FixerClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		843876B61DD26B7D009510E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 301B78D7037F71C7C379758B /* Pods-FixerClient.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FixerClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jca.FixerClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		843876B81DD26B7D009510E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DD654264444216CE8D8B2E3F /* Pods-FixerClientTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FixerClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jca.FixerClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FixerClient.app/FixerClient";
+			};
+			name = Debug;
+		};
+		843876B91DD26B7D009510E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0FCFE44C2FF3EE9CD557FD2 /* Pods-FixerClientTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FixerClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = jca.FixerClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FixerClient.app/FixerClient";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		843876921DD26B7D009510E7 /* Build configuration list for PBXProject "FixerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843876B21DD26B7D009510E7 /* Debug */,
+				843876B31DD26B7D009510E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843876B41DD26B7D009510E7 /* Build configuration list for PBXNativeTarget "FixerClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843876B51DD26B7D009510E7 /* Debug */,
+				843876B61DD26B7D009510E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		843876B71DD26B7D009510E7 /* Build configuration list for PBXNativeTarget "FixerClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				843876B81DD26B7D009510E7 /* Debug */,
+				843876B91DD26B7D009510E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8438768F1DD26B7D009510E7 /* Project object */;
+}

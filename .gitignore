@@ -1,0 +1,51 @@
+FixerClient/Pods/Manifest.lock
+FixerClient/Pods/Alamofire/LICENSE
+FixerClient/Pods/Alamofire/README.md
+FixerClient/Pods/Alamofire/Source/AFError.swift
+FixerClient/Pods/Alamofire/Source/Alamofire.swift
+FixerClient/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift
+FixerClient/Pods/Alamofire/Source/MultipartFormData.swift
+FixerClient/Pods/Alamofire/Source/NetworkReachabilityManager.swift
+FixerClient/Pods/Alamofire/Source/Notifications.swift
+FixerClient/Pods/Alamofire/Source/ParameterEncoding.swift
+FixerClient/Pods/Alamofire/Source/Request.swift
+FixerClient/Pods/Alamofire/Source/Response.swift
+FixerClient/Pods/Alamofire/Source/ResponseSerialization.swift
+FixerClient/Pods/Alamofire/Source/Result.swift
+FixerClient/Pods/Alamofire/Source/ServerTrustPolicy.swift
+FixerClient/Pods/Alamofire/Source/SessionDelegate.swift
+FixerClient/Pods/Alamofire/Source/SessionManager.swift
+FixerClient/Pods/Alamofire/Source/TaskDelegate.swift
+FixerClient/Pods/Alamofire/Source/Timeline.swift
+FixerClient/Pods/Alamofire/Source/Validation.swift
+FixerClient/Pods/Pods.xcodeproj/project.pbxproj
+FixerClient/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Alamofire.xcscheme
+FixerClient/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Pods-FixerClient.xcscheme
+FixerClient/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/Pods-FixerClientTests.xcscheme
+FixerClient/Pods/Pods.xcodeproj/xcuserdata/admin.xcuserdatad/xcschemes/xcschememanagement.plist
+FixerClient/Pods/Target Support Files/Alamofire/Alamofire-dummy.m
+FixerClient/Pods/Target Support Files/Alamofire/Alamofire-prefix.pch
+FixerClient/Pods/Target Support Files/Alamofire/Alamofire-umbrella.h
+FixerClient/Pods/Target Support Files/Alamofire/Alamofire.modulemap
+FixerClient/Pods/Target Support Files/Alamofire/Alamofire.xcconfig
+FixerClient/Pods/Target Support Files/Alamofire/Info.plist
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Info.plist
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-acknowledgements.markdown
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-acknowledgements.plist
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-dummy.m
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-frameworks.sh
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-resources.sh
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient-umbrella.h
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient.debug.xcconfig
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient.modulemap
+FixerClient/Pods/Target Support Files/Pods-FixerClient/Pods-FixerClient.release.xcconfig
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Info.plist
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-acknowledgements.markdown
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-acknowledgements.plist
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-dummy.m
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-frameworks.sh
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-resources.sh
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests-umbrella.h
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests.debug.xcconfig
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests.modulemap
+FixerClient/Pods/Target Support Files/Pods-FixerClientTests/Pods-FixerClientTests.release.xcconfig
